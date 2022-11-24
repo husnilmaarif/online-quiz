@@ -1,0 +1,74 @@
+.success {
+  background: #28a745;
+  color: #f8f9fa;
+  padding: 50px;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: 500;
+  border: solid black;
+}
+
+.failed {
+  background: #dc3545;
+  color: #f8f9fa;
+  padding: 50px;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: 500;
+  border: solid black;
+}
+
+.quiz {
+  background: skyblue;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.button-logout {
+  padding: 7px 15px;
+  background: #dc3545;
+  border-radius: 15px;
+  color: #f8f9fa;
+}
+
+.quiz-title {
+  margin-bottom: 30px;
+}
+
+.quiz-button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 5px 0;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.quiz-button:hover {
+  background: #ffc107;
+  color: #f8f9fa;
+}
+
+.quiz-footer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prev-button {
+  background: #dc3545;
+  color: #f8f9fa;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.next-button {
+  background: #007bff;
+  color: #f8f9fa;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+}
