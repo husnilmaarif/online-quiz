@@ -72,3 +72,9 @@
   padding: 15px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  .quiz {
+    max-width: 95%;
+  }
+}
