@@ -46,6 +46,60 @@ const Home = () => {
         { answerText: "Australia", isCorrect: false },
       ],
     },
+    {
+      questionText: "5. 1 + 1 =",
+      answerOptions: [
+        { answerText: "1", isCorrect: false },
+        { answerText: "2", isCorrect: true },
+        { answerText: "3", isCorrect: false },
+        { answerText: "4", isCorrect: false },
+      ],
+    },
+    {
+      questionText: "6. 1 + 1 =",
+      answerOptions: [
+        { answerText: "1", isCorrect: false },
+        { answerText: "2", isCorrect: true },
+        { answerText: "3", isCorrect: false },
+        { answerText: "4", isCorrect: false },
+      ],
+    },
+    {
+      questionText: "7. 1 + 1 =",
+      answerOptions: [
+        { answerText: "1", isCorrect: false },
+        { answerText: "2", isCorrect: true },
+        { answerText: "3", isCorrect: false },
+        { answerText: "4", isCorrect: false },
+      ],
+    },
+    {
+      questionText: "8. 1 + 1 =",
+      answerOptions: [
+        { answerText: "1", isCorrect: false },
+        { answerText: "2", isCorrect: true },
+        { answerText: "3", isCorrect: false },
+        { answerText: "4", isCorrect: false },
+      ],
+    },
+    {
+      questionText: "9. 1 + 1 =",
+      answerOptions: [
+        { answerText: "1", isCorrect: false },
+        { answerText: "2", isCorrect: true },
+        { answerText: "3", isCorrect: false },
+        { answerText: "4", isCorrect: false },
+      ],
+    },
+    {
+      questionText: "10. 1 + 1 =",
+      answerOptions: [
+        { answerText: "1", isCorrect: false },
+        { answerText: "2", isCorrect: true },
+        { answerText: "3", isCorrect: false },
+        { answerText: "4", isCorrect: false },
+      ],
+    },
   ];
 
   // variabel
@@ -112,7 +166,7 @@ const Home = () => {
   const handleAnswer = (isCorrect) => {
     // memberikan nilai jika benar
     if (isCorrect === true) {
-      setScore(score + 25);
+      setScore(score + 10);
     }
     // pilih jawawban lalu ke halaman selanjutnya
     const nextQuestion = currentQuestion + 1;
